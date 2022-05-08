@@ -14,14 +14,7 @@ public class BsttoSkew {
             this.right = null;
         }
     }
-    /*public void inorderTraversal(Node root){
-        if(root==null){
-            return;
-        }
-        inorderTraversal(root.left);
-        System.out.print(root.data +" ");
-        inorderTraversal(root.right);
-    }*/
+   
     
     public void BsttoSkew( Node root) {
         if(root==null){
